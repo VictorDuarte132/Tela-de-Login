@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LOGIN BASIC</title>
+    <link 
+     />
+       <link rel="stylesheet" href="style.css">
+</head>
+<body>
+            <!-- REGISTRA-SE-->
+<div class="container">    <!-- container geral abrangindo todo as caixas --> 
+    <div class = "form signup">
+        <h2>Registrar-se</h2>
+        <div class = "inputBox">   <!--USUARIO--> 
+            <input type="text" required="required"/> 
+            <i class = "fa-regular fa-user"></i>
+            <span>Nome de usuário</span>
+        </div>
+        <div class="inputBox"> <!--COLOCAR EMAIL--> 
+            <input type="text" required="required"/>
+            <i class="fa-regular fa-envelope"></i>
+            <span>Seu email</span>
+        </div>
+        <div class="inputBox"><!--CRIAR SENHA--> 
+            <input type="password" required="required"/>
+            <i class="fa-solid fa-lock"></i>
+            <span>Criar senha</span>
+        </div>
+        <div class="inputBox"><!--CONFIRMAR SENHA--> 
+            <input type="password" required="required"/>
+            <i class="fa-solid fa-lock"></i>
+            <span>Confirmar Senha</span>
+        </div>
+        <div class="inputBox">
+            <input type="submit" value="Criar Conta" /> <!--BOTAO CRIAR CONTRA--> 
+        </div>
+            <p>Já é cadastrado ? <a href="#" class="login">Fazer Login</a></p> <!-- LINK PARA FAZER LOGIN-->
+    </div>
+                        <!--Login--> 
+            <div class="form signin">  
+                <h2>Bem-Vindo</h2>
+                <div class="inputBox" > <!--NOME USUARIO--> 
+                    <input type="text" required="required" /> 
+                    <i class="fa-regular fa-user"></i>
+                    <span>Nome de Usuário</span>
+                </div>
+                <div class="inputBox"> <!--COLOCAR SENHA--> 
+                    <input type="password" required="required" />
+                    <i class="fa-solid fa-lock"></i>
+                    <span>Senha</span>
+                </div>
+                <div class="inputBox"> <!--BOTÃO LOGIN--> 
+                    <input type="submit" value="Login" />
+                </div>
+                <p>Não é cadastrado ? <a href="#" class="create"> Criar minha conta</a> </p> <!--LINK P/ PAG DE CADASTRO--> 
+            </div>
+</div>
+<script src='script.js'></script> <!--Chamada js externa-->
+</body>
+</html>
